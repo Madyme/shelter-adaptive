@@ -1,0 +1,14 @@
+{
+  "name": "shelter-adaptive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "style-pets": "sass --watch sass/style-pets.scss sass/style-pets.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

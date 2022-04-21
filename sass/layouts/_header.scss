@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header {
+    background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.pets-header {
+    background: #FFFFFF;
+    background-size: 100%;
+    padding: 4.4rem 0 3.0rem 0;
+    position: sticky;
+    top: 0;
+}
+
+
+.limiter-block__header {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.limiter-block__header-pets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo__title {
+    color: #F1CDB3;
+    padding-bottom: 10px;
+    margin: 0;
+    letter-spacing: 0.06em;
+}
+
+.logo__pets__title {
+    color: #545454;
+    margin: 0;
+}
+
+.logo__text {
+    @extend %font-add;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.navigation__link {
+    @extend %font-add;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 35px;
+
+    &-main {
+        color: #CDCDCD;
+
+        &:hover {
+            border-bottom: 3px solid #F1CDB3;
+            color: #FAFAFA;
+        }
+    }
+
+    &-pets {
+        color: #545454;
+    }
+}
+
+.first {
+    margin-left: 0;
+}
+
+.nav-selected-main {
+    border-bottom: 3px solid #F1CDB3;
+    margin-left: 0;
+    color: #FAFAFA;
+}
+
+.nav_selected {
+    border-bottom: 3px solid #F1CDB3;
+    color: #292929;
+    
+}

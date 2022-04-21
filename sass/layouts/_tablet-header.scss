@@ -1,0 +1,40 @@
+@mixin media-tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-mobile {
+    @media (max-width: 320px) {
+        @content
+    }
+}
+
+.limiter-block__header {
+    @include media-tablet {
+        width: 708px;
+    }
+
+    // &-pets {
+    //     @include media-tablet {
+    //         width: 708px;
+    //         display: flex;
+    //         justify-content: space-between;
+    //     }
+    // }
+}
+
+.limiter-block__header-pets {
+    @include media-tablet {
+        width: 708px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.limiter_block {
+    @include media-tablet {
+        width: 708px;
+        display: flex;
+    }
+}

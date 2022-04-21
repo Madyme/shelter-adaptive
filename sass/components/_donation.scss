@@ -1,0 +1,57 @@
+.donation {
+    display: flex;
+    justify-content: center;
+    background: #F6F6F6;
+
+    &:hover {
+        background: linear-gradient(to bottom right, #eae9e9, #bab7b7);
+    }
+
+    &__title {
+        color: #545454;
+        margin-bottom: 20px;
+    }
+
+    &__bank {
+        font-size: 1.5rem;
+        color: #545454;
+        margin-bottom: 20px;
+    }
+
+    &__card {
+        width: 34.9rem;
+        padding: 1.0rem 1.5rem;
+        background: #F1CDB3;
+        border-radius: 9px;
+        margin-bottom: 20px;
+    }
+}
+
+.limiter_block__donation {
+    width: 91.5rem;
+    margin: 8.0rem 0 10.0rem 0;
+    justify-content: center;
+    @include media-tablet {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+.donation__dscrp {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #B2B2B2;
+    @include media-tablet {
+        width: 380px;
+        margin-bottom: 60px;
+    }
+}
+
+.donation__text {
+    @extend %font-add;
+}

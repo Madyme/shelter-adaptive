@@ -1,0 +1,23 @@
+// layouts
+@import "layouts/header";
+@import "layouts/tablet-header";
+@import "layouts/pets-header";
+@import "layouts/footer";
+
+//base
+@import "base/base";
+@import "base/buttons";
+
+//abstract
+@import "abstract/placeholders";
+@import "abstract/mixins";
+@import "abstract/constants";
+
+//components
+@import "components/start";
+@import "components/tablet-start";
+@import "components/about";
+@import "components/pets";
+@import "components/pets-pets";
+@import "components/help";
+@import "components/donation";

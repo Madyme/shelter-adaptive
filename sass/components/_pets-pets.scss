@@ -1,0 +1,45 @@
+.limiter-block__pets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8.0rem 0 10.0rem 0;
+}
+
+.pets__cards__pets {
+    display: grid;
+    grid-template-columns: repeat(4, [col] 1fr);
+    grid-template-rows: repeat(2, [row] 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+
+    @include media-tablet {
+        grid-template-columns: repeat(2, [col] 1fr);
+        grid-template-rows: repeat(3, [row] 1fr);
+    }
+}
+
+.pet__card__pet:hover {
+    background: rgba(73, 73, 73, 0.359);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.arrows {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1, 1fr;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__pets_current {
+    background: #F1CDB3;
+}
+
+.arrow__pets:disabled {
+    color: #CDCDCD;
+    border: 2px solid #CDCDCD;
+    background: #F6F6F6;
+}
