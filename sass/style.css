@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
 }
 
 .header {
@@ -10,8 +9,8 @@
 }
 
 .main-header {
-  background: url(../../assets/images/start-screen-gradient-background.png) no-repeat;
-  background-size: cover;
+  background: url(../../assets/images/start-screen-gradient-background.png);
+  background-size: 100%;
   padding: 60px 0;
 }
 
